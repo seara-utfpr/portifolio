@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+#myWindow {
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#myContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+}

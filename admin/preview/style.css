@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+<!-- Stylesheets -->
+
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v1-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Light'), local('Poppins-Light'),
+       url('../fonts/poppins-v1-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v1-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v1-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v1-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v1-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Poppins'), local('Poppins-Regular'),
+       url('../fonts/poppins-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v1-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+.reg {
+	color:#333333;
+	font-family: Poppins;
+	font-size: 12px;
+}
+
+.regLight {
+	color:#666666;
+	font-family: Poppins;
+	font-size: 12px;
+}
+
+.mediumLight {
+	color:#666666;
+	font-family: Poppins;
+	font-size: 14px;
+	text-align:left; 
+}
+
+.regWhite{
+	color:#FFFFFF;
+	font-family: Poppins;
+	font-size: 16px;
+}
+
+.thumbCaption {
+	color:#999999;
+	font-family: Poppins;
+	font-size: 14px;
+}
+
+.small {
+	color: #333333;
+	font-family: Poppins;
+	font-size: 10px;
+}
+
+.smallLight {
+	color: #666666;
+	font-family: Poppins;
+	font-size: 10px;
+}
+
+.smallWhite {
+	color: #FFFFFF;
+	font-family: Poppins;
+	font-size: 10px;
+}
+
+.red {
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFCC00;
+}
+
+.style2 {font-weight: bold}
+
+.code-courier {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+}
+
+p.reg	{
+	color:#333333;
+	font-family: Poppins;
+	font-size: 12px;
+}
+
+p.small {
+	color: #333333;
+	font-family: Poppins;
+	font-size: 10px;
+}
+
+a:visited {
+	color: #003366;
+	text-decoration: none;
+}
+
+a:link {  
+	color: #003366;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9ba0c3;
+	text-decoration: none;
+}
+	
+a:active {
+	color: #333333;
+	text-decoration: none;
+}
+
+td {
+	font-family:Poppins;
+	font-size:16px;
+	color:#666666;
+	text-align:left;
+}
+
+.centered {
+	font-family:Poppins;
+	font-size:18px;
+	color:#666666;
+	text-align:center; 
+}
+
+.justified {
+	font-family:Poppins;
+	font-size:16px;
+	color:#666666;
+	text-align:justify; 
+}
+
+.justifiedSmall {
+	font-family:Poppins;
+	font-size:10px;
+	color:#666666;
+	text-align:justify; 
+}
+
+.headerPage {
+	font-family:Poppins;
+	font-size:50px;
+	text-align:left; 
+}
+
+.headerSection {
+	font-family:Poppins;
+	font-size:30px;
+	text-align:left; 
+}
+
+.headerSubsection {
+	font-family:Poppins;
+	font-size:24px;
+	text-align:left; 
+}
+
+.headerSubsectionWhite {
+	font-family:Poppins;
+	font-size:24px;
+	color:#FFFFFF;
+	text-align:left; 
+}
+
+.header {
+	font-family:Poppins;
+	font-size:20px;
+	color:#333333;
+	text-align:left; 
+}
+
+.headerLight {
+	font-family:Poppins;
+	font-size:20px;
+	color:#666666;
+	text-align:left; 
+}
+
+.textWhite {
+	font-family:Poppins;
+	font-size:20px;
+	font-weight:300;
+	color:#FFFFFF;
+	vertical-align:top;
+}
+
+.textWhiteSmall {
+	font-family:Poppins;
+	font-weight:300;
+	font-size:16px;
+	color:#FFFFFF;
+	vertical-align:top;
+}	
+
